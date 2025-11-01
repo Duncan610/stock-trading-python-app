@@ -1,0 +1,36 @@
+# 🐍 Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🚫 Ignore your local virtual environment
+pythonenv/
+
+# ⚙️ Ignore environment and secrets
+.env
+*.env
+
+# 🧪 Ignore build, dist, and package files
+build/
+dist/
+*.egg-info/
+
+# 🧰 Ignore version control and IDE files
+.git/
+.gitignore
+.vscode/
+.idea/
+.DS_Store
+
+# 🧾 Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# 📁 Ignore large local datasets or artifacts (optional)
+data/
+datasets/
+models/
+notebooks/
