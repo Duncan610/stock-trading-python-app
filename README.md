@@ -20,13 +20,25 @@ Git + GitHub – Version control and project collaboration
 stock-trading-python-app/
 │
 ├── script.py
+
 ├── scheduler.py
+
 ├── requirements.txt
+
+├── Dockerfile
+
+├── .dockerignore
+
 ├── .env
+
 ├── .gitignore
+
 ├── tickers.csv
+
 ├── pythonenv/
+
 └── README.md
+
 
 ## 📂 File Descriptions
 
@@ -73,6 +85,10 @@ Keeps your repo clean and prevents credential leaks.
 Local virtual environment folder containing project-specific dependencies.
 
 Should not be uploaded to GitHub — it’s ignored by .gitignore.
+
+### .dockerignore
+
+Specifies which files and folders Docker should ignore when building the image (e.g., .env, pythonenv/,
 
 ## 🚀 How to Run
 
